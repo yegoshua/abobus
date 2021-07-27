@@ -4,9 +4,14 @@ body{
     color: #0A143A; /* Цвет текста*/
 }
 .header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 12px;
+}
+.container
+{
     max-width: 1146px;
     margin: auto;
-    padding-top: 30px;
 }
 
 .navbar{
@@ -86,4 +91,93 @@ body{
 
 .search-button-text{
     margin-left: 5px;
+}
+.page-title{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.page-content{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    grid-column-gap: 30px;
+}
+
+.card-image{
+    height: 178px;
+    width: 264px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+.card:not(:nth-child(3n)){
+    margin-right: 20px;
+}
+
+.card-title{
+    font-size: 16px;
+    line-height: 19px;
+    color: #256EEB;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like{
+    background-color: #ffff;
+    border:none;
+    cursor: pointer;
+}
+
+.card-price{
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    display: block;
+}
+.card-text{
+    color: #C4C4C4;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.card-link
+{
+    text-decoration: none;
+}
+.sidebar-title
+{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.service{
+    margin-bottom: 25px;
+}
+.service-title
+{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    margin-top: 7px ;
+    font-weight: bold;
+}
+
+.service-text{
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 217px;
 }
